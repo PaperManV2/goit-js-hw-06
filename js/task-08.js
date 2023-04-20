@@ -17,8 +17,7 @@ btnSubmit.addEventListener("click", (event) => {
     loginPassword = passwordInput.getAttribute("name");
     loginInfo[loginPassword] = passwordInput.value;
 
-    console.log(loginInfo[loginEmail]);
-    console.log(loginInfo[loginPassword]);
+    console.log(loginInfo);
 
     loginForm.reset();
   }
